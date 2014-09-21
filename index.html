@@ -1,5 +1,7 @@
 <html>
 <head>
+    <script src="jquery-1.11.1.min.js"></script>
+    <script src="index.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" type="text/css" href="nav.css">
@@ -7,15 +9,29 @@
 <body>
     <div id='cssmenu'>
         <ul>
-           <li class='active'><a href='#'><span>Home</span></a></li>
-           <li><a href='#'><span>About</span></a></li>
-           <li><a href='#'><span>Media</span></a></li>
-           <li class='last'><a href='#'><span>Contact</span></a></li>
+           <li class='active'><a href='#home'><span>Home</span></a></li>
+           <li><a href='#about'><span>About</span></a></li>
+           <li><a href='#media'><span>Media</span></a></li>
+           <li class='last'><a href='#contact'><span>Contact</span></a></li>
         </ul>
     </div>
-     
-    <div class="centered logo">
-        <span class="logo-thin">UC BERKELEY</span> <span class="divider">|</span>  <span class="logo-bold"> DIL SE </span>
+    
+    <div id="home" class="panel">
+        <div class="centered logo">
+            <span class="logo-thin">UC BERKELEY</span> <span class="divider">|</span>  <span class="logo-bold"> DIL SE </span>
+        </div>
+    </div>
+
+    <div id="about" class="panel">
+        <div class="centered logo"><span class="logo-bold">ABOUT</span></div>
+    </div>
+
+    <div id="media" class="panel">
+        <div class="centered logo"><span class="logo-bold">MEDIA</span></div>
+    </div>
+
+    <div id="contact" class="panel">
+        <div class="centered logo"><span class="logo-bold">CONTACT</span></div>
     </div>
 </body>
 </html>
