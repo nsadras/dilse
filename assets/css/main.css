@@ -3723,6 +3723,20 @@
 				#footer .icons a:hover {
 					color: #fff;
 				}
+    
+    #footer .ocf {
+      vertical-align: middle
+    }
+
+    #footer .disclaimer {
+      color: rgba(255, 255, 255, 0.5);
+			font-size: 0.7em;
+			letter-spacing: 0.225em;
+      width:50%;
+      text-align: center;
+      margin:auto;
+      margin-bottom:3em;
+    }
 
 		#footer .copyright {
 			color: rgba(255, 255, 255, 0.5);
@@ -3733,6 +3747,7 @@
 			text-transform: uppercase;
 		}
 
+    
 			#footer .copyright li {
 				border-left: solid 1px rgba(255, 255, 255, 0.5);
 				display: inline-block;
